@@ -22,16 +22,18 @@
 
     <distributionManagement>
     <repository>
-        <id>releases</id>
-        <name>jfrog.cloudbinary.io-releases</name>
-        <url>http://3.86.116.208:8081/artifactory/libs-release</url>
+ 
+        <id>central</id>
+        <name>jfrog.nadeem-releases</name>
+        <url>http://18.209.24.176:8081/artifactory/libs-release</url>
+   
     </repository>
   
-  <snapshotRepository>
-      <id>snapshots</id>
-      <name>jfrog.cloudbinary.io-snapshots</name>
-      <url>http://3.86.116.208:8081/artifactory/libs-snapshot</url>
-  </snapshotRepository>
+      <snapshotRepository>
+        <id>snapshots</id>
+        <name>jfrog.nadeem-snapshots</name>
+        <url>http://18.209.24.176:8081/artifactory/libs-snapshot</url>
+    </snapshotRepository>
     </distributionManagement>
     
     <dependencies>
