@@ -25,14 +25,14 @@
  
         <id>central</id>
         <name>jfrog.nadeem-releases</name>
-        <url>http://18.209.24.176:8081/artifactory/libs-release</url>
+        <url>http://184.73.136.151:8081/artifactory/libs-release</url>
    
     </repository>
   
       <snapshotRepository>
         <id>snapshots</id>
         <name>jfrog.nadeem-snapshots</name>
-        <url>http://18.209.24.176:8081/artifactory/libs-snapshot</url>
+        <url>http://184.73.136.151:8081/artifactory/libs-snapshot</url>
     </snapshotRepository>
     </distributionManagement>
     
