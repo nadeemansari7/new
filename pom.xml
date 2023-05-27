@@ -20,19 +20,32 @@
 
     </properties>
 
-    
     <distributionManagement>
-    <snapshotRepository>
-        <id>snapshots</id>
-        <name>jfrog.cloudbinary.io-snapshots</name>
-        <url>http://3.86.116.208:8081/artifactory/libs-snapshot/</url>
-    </snapshotRepository>
     <repository>
-        <id>releases</id>
+        <id>central</id>
         <name>jfrog.cloudbinary.io-releases</name>
-        <url>http://3.86.116.208:8081/artifactory/libs-release/</url>
-    </repository>	
+        <url>http://3.86.116.208:8081/artifactory/libs-release</url>
+    </repository>
+  
+  <snapshotRepository>
+      <id>snapshots</id>
+      <name>jfrog.cloudbinary.io-snapshots</name>
+      <url>http://3.86.116.208:8081/artifactory/libs-snapshot</url>
+  </snapshotRepository>
 </distributionManagement>
+    
+   // <distributionManagement>
+   // <snapshotRepository>
+     //   <id>snapshots</id>
+       // <name>jfrog.cloudbinary.io-snapshots</name>
+       // <url>http://3.86.116.208:8081/artifactory/libs-snapshot/</url>
+   // </snapshotRepository>
+   // <repository>
+     //   <id>releases</id>
+       // <name>jfrog.cloudbinary.io-releases</name>
+       // <url>http://3.86.116.208:8081/artifactory/libs-release/</url>
+   // </repository>	
+//</distributionManagement>
     
     <dependencies>
         <dependency>
